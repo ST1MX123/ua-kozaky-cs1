@@ -5,7 +5,7 @@ const SteamStrategy = require('passport-steam').Strategy;
 const path = require('path');
 
 const app = express();
-const STEAM_API_KEY = 'ВАШ_STEAM_API_KEY'; // встав свій ключ
+const STEAM_API_KEY = '73A28A895264D1BD677BF77BF8D570CA'; // встав свій ключ
 
 passport.use(new SteamStrategy({
     returnURL: 'https://ua-kozaki.onrender.com/auth/steam/return',
@@ -41,3 +41,4 @@ app.get('/auth/steam/return', passport.authenticate('steam', { failureRedirect: 
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Сервер запущено на порті ${PORT}`));
+
