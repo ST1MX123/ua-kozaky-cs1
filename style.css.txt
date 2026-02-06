@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    padding: 50px;
+}
+
+h1 {
+    color: red;
+    font-size: 50px;
+}
+
+.steam-login {
+    display: inline-block;
+    margin: 20px;
+    padding: 15px 30px;
+    background-color: #1b2838;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.steam-login:hover {
+    background-color: #171a21;
+}

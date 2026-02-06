@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>UA Kozaki CS2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>UA Kozaki CS2</h1>
+        <p>Ласкаво просимо на наш сайт!</p>
+        <a class="steam-login" href="/auth/steam">Увійти через Steam</a>
+        <div id="user-info"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
